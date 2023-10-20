@@ -1,0 +1,345 @@
+*{
+    padding: 0;
+   margin: 0;
+   font-family: sans-serif;
+}
+.conteiner{
+    width: 75%;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+button{
+    border: none;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-nav{
+    margin-right: 200px;
+}
+.header-nav a {
+    color: #000;
+font-size: 16px;
+font-weight: 600;
+margin: 0 30px;
+
+}
+.header-icons img {
+    margin: 0 15px;
+}
+.ernar{
+    display: flex;
+    align-items: center;
+}
+.ernar-img {
+ margin: 0 10px;
+}
+.designer h3 {
+    color: var(--orange, #FBA457);
+font-size: 24px;
+font-weight: 500;
+}
+.header-icons{
+    margin-right: 30px;
+}
+.designer h2 span {
+    color: var(--green, #1DBF73);
+font-size: 36px;
+font-weight: 600;
+}
+.designer h2 {
+    color: #000;
+font-size: 36px;
+font-weight: 600;
+margin: 10px 0;
+}
+.designer p {
+    color: #000;
+
+/* desktop/text */
+font-size: 14px;
+font-weight: 100;
+margin: 20px 0;
+}
+.designer button {
+    border-radius: 50px;
+border: 1px solid var(--light-gray, #F2F0FE);
+color: var(--black, #222);
+font-size: 14px;
+font-weight: 400;
+padding: 10px 20px;
+background: transparent;
+}
+.input {
+padding-right: 100px;
+  }
+  
+  .input::placeholder {
+    text-align: right; /* Сдвигаем текст плейсхолдера вправо */
+
+    direction: rtl; /* Меняем направление текста на справа налево (если необходимо) */
+  }
+  
+#designer {
+    background: var(--super-light-gray, #F7F6FF);
+}
+#header {
+    background: var(--super-light-gray, #F7F6FF);
+}
+.conteiner input {
+    border-radius: 20px;
+background: var(--light-gray, #F2F0FE);display: flex;
+border: none;
+padding: 10px 200px;
+}
+.conteiner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ernar-2 {
+    position: relative;
+    z-index: 2;
+    margin-left: 200px;
+}
+
+.Ellipse3 {
+position: absolute ;
+left: 900px;
+bottom: 700px;
+}
+.dots2 {
+    position: relative;
+    right: 450px;
+    bottom: 50px;
+    z-index: 1;
+}
+.star2 {
+    position: relative;
+    bottom: 120px;
+    left: 290px;
+    z-index: 2;
+}
+.line2{
+    position: relative;
+    right: -350px;
+    bottom: 430px;
+    z-index: 3;
+}
+.ellips4{
+    position: relative;
+    right: -220px;
+    bottom: 190px;
+    z-index: 1;
+}
+.img2 {
+    margin-top: 100px;
+}
+.setting{
+    position: relative;
+    right: -20px;
+    z-index: 3;
+    bottom: 520px;
+}
+.block h5 {
+    color: var(--black, #222);
+
+/* desktop/H3 */
+font-size: 18px;
+font-weight: 600;
+margin: 15px 15px;
+}
+.block p {
+    color: var(--green, #1DBF73);
+
+/* desktop/H3 */
+ font-size: 18px;
+font-weight: 600;
+margin: 15px 15px;
+}
+
+.blocks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@keyframes Ellipse3 {
+50% {
+    transform: rotate(100deg);
+}
+100%{
+    transform: translate(100deg) ;
+}
+}
+.block1 {
+    display: inline-flex;
+    padding: 70px 47px;
+    flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+border-radius: 20px;
+border: 1px solid var(--light-gray, #F2F0FE);
+background: var(--light-green, #D7FFEC);
+margin: 20px;
+background: transparent;
+}
+.block1 h1 {
+    color: var(--green, #1DBF73);
+font-size: 30px;
+font-weight: 600;
+}
+.vorki h3 {
+    color: #000;
+
+/* desktop/H2 */
+font-size: 24px;
+font-weight: 600;
+letter-spacing: 0.48px;
+}
+.blocks1 {
+    display: flex;
+}
+.block {
+    border-radius: 20px;
+border: 1px solid var(--light-gray, #F2F0FE);
+background: var(--white, #F6FAFD);
+margin: 20px;
+}
+.btne {
+    color: var(--green, #1DBF73);
+
+/* desktop/H3 */
+font-size: 18px;
+font-weight: 600;
+border-radius: 40px;
+border: 1px solid var(--green, #1DBF73);
+padding: 16px 48px;
+gap: 10px;
+background: transparent;
+    position: absolute;
+    top: 50%;
+    top: 190%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* Дополнительные стили для кнопки */
+
+}
+.block-3 {
+    display: flex;
+}
+.freelancers {
+    margin: 30px;
+    border-radius: 20px;
+border: 1px solid var(--light-gray, #F2F0FE);
+background: var(--white, #F6FAFD);
+}
+#vorki {
+    background: var(--white, #F6FAFD);
+}
+.freelancer1 {
+    display: flex; /* Превращает #hero в контейнер с flex layout */
+}
+#hero {
+    padding-top: 200px;
+    background: var(--white, #F6FAFD);
+}
+.herop {
+    display: flex;
+}
+.pv1 {
+    margin-left: 50px;
+}
+.hero h2 {
+    color: #000;
+
+/* desktop/H2 */
+font-size: 24px;
+font-weight: 600;
+letter-spacing: 0.48px;
+}
+.pv2 {
+    color: var(--green, #1DBF73);
+font-size: 16px;
+font-weight: 600;
+margin-top: 30px;
+}
+.pv1 {
+    color: #000;
+font-size: 16px;
+font-weight: 400;
+margin-top: 30px;
+
+}
+.btnr {
+    color: var(--green, #1DBF73);
+
+    /* desktop/H3 */
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 40px;
+    border: 1px solid var(--green, #1DBF73);
+    padding: 16px 48px;
+    gap: 10px;
+    background: transparent;
+        position: relative;
+        left: 50%;
+        top: 80px;
+margin-bottom: 100px;        
+        transform: translate(-50%, -50%);
+        /* Дополнительные стили для кнопки */
+}
+#footer {
+    padding-top: 80px;
+}
+.footer2 {
+    margin-right: 170px;
+}
+.footer3 {
+    margin-right: 170px;
+}
+.footer4 {
+    margin-right: 170px;
+}
+.footer5 {
+    margin-right: 140px;
+}
+.footer1 {
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    max-width: 20%; /* Возможно, вам нужно увеличить ширину, чтобы изображения были видимыми */
+}
+.footer {
+    display: flex;
+}
+#footer {
+    position: relative;
+    background: var(--light-gray, #F2F0FE);
+}
+.footer h3 {
+    color: var(--black, #222);
+font-size: 30px;
+font-weight: 700;
+letter-spacing: 0.48px;
+margin-bottom: 40px;
+}
+.footer p {
+    
+    color: var(--black, #222);
+
+    /* desktop/text */
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.jkl {
+    text-align: center;
+margin-top: 100px;
+padding-bottom: 50px;
+}
